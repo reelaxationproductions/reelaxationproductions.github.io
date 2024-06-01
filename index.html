@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reelaxation Productions</title>
+    <title>Reelaxation Productions | Home</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         body {
@@ -27,8 +27,12 @@
             text-align: center;
             padding: 10px;
             position: fixed;
-            padding-left: 687px;
-            padding-right: 687px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            top: 15px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
         }
         nav a {
             color: #fff;
@@ -44,6 +48,9 @@
         section {
             padding: 20px;
             text-align: center;
+        }
+
+        section a{
         }
 
         footer {
@@ -62,13 +69,47 @@
             position: inherit;
             text-decoration: none;
         }
+
+        .image-container {
+            box-shadow: 0px 0px 10px 5px #888888; /* x-offset y-offset blur spread color */
+            padding: 10px; /* Remove padding */
+            border-radius: 10px;
+            display: flex;
+            height: fit-content;
+            width: fit-content;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px; /* Add some space between the image and the text */
+        }
+
+        .image-container img {
+            box-shadow: 0px 0px 5px 5px #d5d5d5; /* x-offset y-offset blur spread color */
+            display: block;
+            height: fit-content;
+            width: fit-content;
+            border-radius: 10px;
+        }
+
+        #New > a {
+    text-align: left; /* Align the text to the left within the anchor tag */
+    max-width: 50%; /* Limit the width of the text container */
+}
+
+#New {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+}
+
     </style>
 </head>
 <body>
     <nav>
-        <a href="#about">About</a>
-        <a href="#staff">Staff</a>
-        <a href="#contact">Contact</a>
+        <a href="#About">About</a>
+        <a href="#Staff">Staff</a>
+        <a href="#New">Latest</a>
+        <a href="#Contact">Contact</a>
     </nav>
     <header>
             <h1>Reelaxation Productions</h1>
@@ -94,6 +135,30 @@
         <p>Hunter Hayes | Community Manager</p>
         <p>Brayden Pacey | Community Manager</p>
         <p></p>
+    </section>
+    <h2>Latest</h2>
+    <section id="New">
+        <div class="image-container">
+            <img src="Bio-Mechs Catastrophy small.png" alt="BioMechs: Catastrophe">
+          </div>
+          <a>
+        <h4>Bio Mechs: Catastrophe</h4>
+          <h6>Team</h6>
+          <p></p>
+          <p>Executive Producer | Bodhi Reimer</p>
+          <p>Producer | Justin Miorandi</p>
+          <p>Director | Connor Hannaford</p>
+          <p>Writer | Justin Miorandi</p>
+          <p>Editor | Bodhi Reimer</p>
+          <p>Animator | Justin Miorandi</p>
+          <p>Animator | Bodhi Reimer</p>
+          <p></p>
+          <h6>Software</h6>
+          <p></p>
+          <p>Unreal Engine 5 | Epic Games Inc.</p>
+          <p>Davinci Resolve | Blackmagic Design Pty Ltd.</p>
+          <h6>(Coming Soon)</h6>
+          </a>
     </section>
     <section id="Contact">
         <h2>Contact</h2>
