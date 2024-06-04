@@ -20,7 +20,9 @@
             text-align: center;
             padding: 1px;
             position: top;
-            padding-top: 15px;
+            padding-top: 30px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
         }
         nav {
             background-color: #0c0c0c;
@@ -43,7 +45,7 @@
             transition: background-color, 0.3s;
         }
         nav a:hover {
-            background-color: #f33d3d9d;
+            background-color: #f33d3d;
         }
         section {
             padding: 20px;
@@ -51,6 +53,13 @@
         }
 
         section a{
+            color: #c1c1c1;
+            text-decoration: none;
+            transition: color, 0.3s;
+        }
+
+        section a:hover{
+            color: #f33d3d;
         }
 
         footer {
@@ -102,6 +111,25 @@
     align-items: flex-start; /* Align items to the top */
 }
 
+.image-container2 {
+    box-shadow: 0px 0px 10px 5px #888888;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Center horizontally within its container */
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.image-container2 img {
+    box-shadow: 0px 0px 5px 5px #d5d5d5;
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
     </style>
 </head>
 <body>
@@ -112,11 +140,17 @@
         <a href="#Contact">Contact</a>
     </nav>
     <header>
-            <h1>Reelaxation Productions</h1>
+            <img src="download (2).png" alt="">
     </header>
     <section id="About">
         <h2>Who are we?</h2>
         <p>Reelaxation Productions is an Australian film studio, we make shortfilms, movies & shows. The best part is we don't charge anything to watch our films. We animate in Unreal Engine and edit our films in Davinci Resolve, our dedicted production team works tirelessly to create the best possible films we can, and our wonderful community team gives a bridge between you and our team. You might think we are the worst studio ever but we can tell you one thing, we will work so increadably hard to change your mind because you matter to us!</p>
+    </section>
+    <section id="Coming Soon">
+        <h3>Bio Mechs: Catastrophe | Coming Soon</h3>
+        <div class="image-container2">
+            <img src="pixlr-image-generator-1c343d8d-9d36-4ewtttertet5d5-8ff5-d9d4dc7e2ccf.png" alt="BioMechs: Catastrophe">
+        </div>
     </section>
     <section id="Staff">
         <h2>Our Staff Team</h2>
@@ -135,11 +169,12 @@
         <p>Hunter Hayes | Community Manager</p>
         <p>Brayden Pacey | Community Manager</p>
         <p></p>
+        <a href="https://forms.gle/aeK7UHjBBwC8YWLC9">Join the Team!</a>
     </section>
     <h2>Latest</h2>
-    <section id="New">
+    <section id="New">'
         <div class="image-container">
-            <img src="Bio-Mechs Catastrophy small.png" alt="BioMechs: Catastrophe">
+                <img src="Bio-Mechs Catastrophy small.png" alt="BioMechs: Catastrophe">
           </div>
           <a>
         <h4>Bio Mechs: Catastrophe</h4>
