@@ -1,0 +1,20 @@
+Nav: #0c0c0c
+    Text #fff
+
+Header: #161616
+    Text: #fff
+
+Body: #f9f9f9
+    Text: #333
+
+Hover: #f33d3d
+
+Footer: #1f1f1f
+    Text: #fff
+    Text 2: #6b6b6b
+
+Shadow: #d5d5d5
+    Image : #d5d5d5
+    Image Border: #888888
+    Nav: rgba(0, 0, 0, 0.5)
+
